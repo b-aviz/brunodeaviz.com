@@ -1,0 +1,700 @@
+@font-face {
+    font-family: "Bicyclette-Regular";
+    src: url("../fonts/Bicyclette-Regular.woff2");
+    font-weight: normal;
+  }
+  @font-face {
+    font-family: "Bicyclette-Light";
+    src: url("../fonts/Bicyclette-Light.woff2");
+    font-weight: light;
+  }
+
+  @font-face {
+    font-family: "Bicyclette-Bold";
+    src: url("../fonts/Bicyclette-Bold.woff2");
+    font-weight: bold;
+  }
+
+
+  @font-face {
+    font-family: "Bicyclette-Black";
+    src: url("../fonts/Bicyclette-Black.woff2");
+    font-weight: bolder;
+  }
+
+  @font-face {
+    font-family: "GasoekOne-Regular";
+    src: url("../fonts/GasoekOne-Regular.woff2");
+    font-weight: normal;
+  }
+
+
+  
+body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    border: none;
+    border: 0px;
+}
+
+input {
+    border-radius: 0;
+  }
+
+html {
+    background-color: #FFFFFF;
+    font-family: "Bicyclette-Regular", sans-serif;
+    font-size: 16px;  
+    border: none;
+    border: 0px;
+}
+
+.space {
+    width: 100%;
+    height: 16px;
+}
+
+hr.solid {
+    border-top: 1px solid #2D2742;;
+}
+
+
+
+a:link { text-decoration: none; }
+a:visited { text-decoration: none; }
+a:hover { text-decoration: none; }
+a:active { text-decoration: none; }
+
+.top_bar {
+   display: flex; 
+   width: 100%;
+   position: sticky;
+
+   position: -webkit-sticky; /* Safari */
+   top: 0;
+   z-index: 100;
+
+}
+
+.top_bar_01 {
+    flex: 4 ;
+    width: 45%;
+    
+    background-color: #D2FF1A ;
+}
+.top_bar_02 {
+    flex: 3;
+    width: 30%;
+    height: 12px;
+   
+    background-color: #E843E5 ;
+}
+.top_bar_03 {
+    flex: 2;
+    width: 15%;
+    height: 12px;
+   
+    background-color: #A600FF;
+
+}
+.top_bar_04 {
+    flex: 1;
+    width: 10%;
+    height: 12px;
+   
+    background-color: #6143DF;
+}
+
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #D2FF1A; 
+}
+.top-header{
+    background-color: #2D2742;
+    width: 100%;
+    height: 76px;
+    flex-shrink: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.logo {
+    width: 286.67px;
+    display: flex;
+    align-items: center;
+    margin: 0 0 0 7rem;
+    text-align: center;
+    margin: auto;
+}
+
+.logo img a:link, a:visited, a:hover, a:active { 
+    text-decoration: none;
+    border: none;
+    border: 0px;
+
+
+}
+
+.logo img {
+
+    border: none;
+    border: 0px;
+
+}
+
+
+.second-button {
+    width: 12.375rem;
+    height: 3rem;
+    flex-shrink: 0;
+    border-radius: 0.5rem;
+    border: 1px solid #FFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #FFF;
+    text-align: center;
+    font-family: "Bicyclette-Regular", sans-serif;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    margin: 0 7rem 0 0;
+
+}
+
+.main-header {
+
+    max-width: 1440px;
+    width: 100%;
+    height: 272px;
+    background-color: #D2FF1A; 
+    margin: auto;
+    position: relative;
+    
+    
+
+
+
+    
+    
+}
+
+.main-header-group {
+    background-color: #D2FF1A; 
+
+
+    width: 100%;
+    height: 100%;
+
+
+    
+    
+
+
+}
+
+
+
+.title {
+
+    width: 100%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+   
+    
+
+
+}
+
+
+.subtitle {
+
+    width: 100%;
+    padding-top: 12px;
+
+    
+
+
+}
+
+.title H1 {
+    color: #2D2742;
+    font-family: "Bicyclette-BOLD", sans-serif;
+    text-transform: uppercase;
+    font-size: 38px;
+    font-weight:bold;
+
+
+    
+
+}
+
+
+.title H2 {
+    color: #2D2742;
+    font-family: "Bicyclette-Light", sans-serif;
+    font-size: 28px;
+    text-transform: uppercase;
+
+
+    
+
+}
+
+
+
+
+
+
+
+section { 
+    width: 100%;
+    background-color: #FFF;
+    margin: auto;
+    display: flex;
+ 
+
+}
+
+section h2 {
+     font-family: "Bicyclette-Bold", sans-serif;
+     font-style: bold;
+     font-weight: 700;
+     color: #2D2742;
+     font-size: 1.5rem;
+
+     line-height: 1.75rem; /* 116.667% */
+
+}
+
+section p {
+    color: #2D2742;
+    font-family: "Bicyclette-Regular", sans-serif;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1.75rem; /* 155.556% */
+}
+
+
+
+
+section img {
+    border-radius: 0.5rem;
+    max-width: 100%;
+    height: auto;
+
+}
+
+.newsletter-grouptext {
+
+ 
+    width: 100%;
+    height: 512px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+
+    
+}
+
+
+
+.newsletter-group {
+    max-width: 800px;
+    width: 90%;
+    height: 512px;
+
+    margin: auto;
+    
+
+
+    
+
+}
+
+.newsletter-text {
+    width: 100%;
+    max-width: 572px;
+text-align: center;
+
+
+
+
+
+}
+
+.newsletter-text H2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Bicyclette-Bold", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+    font-size: 2.75rem;
+
+    line-height: 2.5rem; /* 90.909% */
+    text-transform: uppercase;
+ 
+    text-align: center;
+
+
+
+}
+
+
+.newsletter-text p {
+
+    color: #FFF;
+text-align: center;
+font-family: "Bicyclette-Regular", sans-serif;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 140% */
+
+
+}
+
+.newsletter-text .email  {
+    border-radius: 0.5rem;
+    border: 1px solid #B482FF;
+    background: #FFF;
+
+    height: 3rem;
+    flex-shrink: 0;
+    text-align: center;
+
+}
+
+
+
+.newsletter-text .button {
+    background-color: #D2FF1A;
+    border: none;
+    
+    color: #2D2742;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Bicyclette-Bold", sans-serif;
+    font-style: bold;
+    font-weight: 700;
+
+     height: 3rem;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+
+  }
+
+  .newsletter-text .button:hover {
+    background-color: #C4ED1C;
+    border: none;
+    color: #2D2742;
+
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-family: "Bicyclette-Bold", sans-serif;
+    font-style: bold;
+    height: 3rem;
+    border-radius: 8px;
+
+  }
+
+
+
+
+
+
+.newsletter {
+
+    background-color: #6143DF; 
+    background-image: url(../img/newsletter-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    width: 100%;
+    height: 100%;
+    
+    
+
+}
+
+
+
+
+
+
+
+
+
+
+
+.content {
+    width: 90%;
+    height: auto;
+    margin: auto;
+    min-width: 360px;
+    max-width: 800px;
+
+    
+}
+
+.button {
+    background-color: #D2FF1A;
+    border: none;
+    color: #610095;
+    padding: 12px 44px 12px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+     font-family: "Bicyclette-Bold", sans-serif;
+    width: 90%;
+    border-radius: 8px;
+    transition-duration: 0.4s;
+
+  }
+
+  .button:hover {
+    background-color: #C4ED1C;
+    border: none;
+    color: #610095;
+    padding: 12px 44px 12px 44px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+     font-family: "Bicyclette-Bold", sans-serif;
+    width: 90%;
+    border-radius: 8px;
+
+  }
+
+.email {
+    width: 90%;
+    height: 44px;
+    border-radius: 8px;
+    font-size: 20px;
+    text-align: center;
+     font-family: "Bicyclette-Bold", sans-serif;
+    background-color: #FFFFFF;
+    border-style: none;
+    border: 1px solid #2D2742;
+
+
+}
+
+
+.about {
+
+    width: 100%;
+    min-height: 649px;
+
+    background-color: #2D2742;
+
+
+
+}
+
+
+.about-group {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.about-text {
+    width: 90%;
+    max-width: 572px;
+    text-align: center;
+
+
+
+}
+
+
+.about-text H2 {
+    color: #FFF;
+    text-align: center;
+    font-family: "Bicyclette-Bold", sans-serif;
+    font-size: 2.75rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2.5rem; /* 90.909% */
+    text-transform: uppercase;
+ 
+    text-align: center;
+
+
+
+}
+
+
+.about-text img {
+    width: 188px ;
+
+}
+
+.about-text p {
+
+    color: #FFF;
+text-align: center;
+font-family: "Bicyclette-Regular", sans-serif;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 140% */
+
+
+}
+
+
+footer {
+    background-color: #E843E5;
+    width: 100%;
+    margin: auto;
+
+
+}
+
+
+.social {
+    display: flex; 
+    min-width: 300px;
+    max-width: 300px;
+    width: 100%;
+    margin: auto;
+
+    align-items: center;
+    justify-content: space-between;
+    height: 44px;
+}
+
+.social img {
+
+    width: 32px;
+}
+
+
+
+.social p {
+    text-align: center;
+    color: #FFF;
+    margin: auto;
+    text-transform: uppercase;
+}
+
+.social p a:link, a:visited, a:active {
+    color: #FFF;
+    text-decoration-line: none;
+
+}
+
+.social p a:hover {
+    color: #FFF;
+    text-decoration-line: line-through;
+   
+
+}
+
+
+
+
+.linkedin .instagram .youtube {
+    width: 52px;
+}
+
+.logo-eye {
+    text-align: center;
+
+
+}
+
+footer img {
+    width: 86px;
+    transition-duration: 0.4s;
+ 
+}
+
+footer a img:hover {
+
+    opacity: 0.4;
+
+}
+
+
+.year {
+    width: 100%;
+    height: 32px;
+    background-color: #6143DF;
+    color: #FFFFFF;
+    font-size: 12px;
+     font-family: "Bicyclette-Light", sans-serif;
+    text-align: center;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+}
+
+@media only screen and (max-width: 768px) {
+    /* For mobile phones: */
+ 
+
+
+.title H1 {
+
+    font-size: 32px;
+
+
+}
+
+
+.title H2 {
+
+    font-size: 20px;  
+
+}
+
+.about-text H2 {
+
+
+    font-size: 32px;  
+
+}
+
+
+.newsletter-text H2 {
+
+
+    font-size: 32px;  
+
+}
+
+
+
+  }
