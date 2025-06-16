@@ -1,57 +1,56 @@
+/* === GLOBAL + DESKTOP STYLES === */
+
 /* === Fonts and Base Styles === */
 
 @font-face {
-    font-family: "Bicyclette-Regular";
-    src: url("../fonts/Bicyclette-Regular.woff2");
-    font-weight: normal;
-  }
-  @font-face {
-    font-family: "Bicyclette-Light";
-    src: url("../fonts/Bicyclette-Light.woff2");
-    font-weight: light;
-  }
+font-family: "Bicyclette-Regular";
+src: url("../fonts/Bicyclette-Regular.woff2");
+font-weight: normal;
+}
+@font-face {
+font-family: "Bicyclette-Light";
+src: url("../fonts/Bicyclette-Light.woff2");
+font-weight: light;
+}
 
-  @font-face {
-    font-family: "Bicyclette-Bold";
-    src: url("../fonts/Bicyclette-Bold.woff2");
-    font-weight: bold;
-  }
+@font-face {
+font-family: "Bicyclette-Bold";
+src: url("../fonts/Bicyclette-Bold.woff2");
+font-weight: bold;
+}
 
-
-  @font-face {
-    font-family: "Bicyclette-Black";
-    src: url("../fonts/Bicyclette-Black.woff2");
-    font-weight: bolder;
-  }
+@font-face {
+font-family: "Bicyclette-Black";
+src: url("../fonts/Bicyclette-Black.woff2");
+font-weight: bolder;
+}
 
 body {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 * {
-    margin: 0;
-    padding: 0;
+margin: 0;
+padding: 0;
 }
 
 html {
-    background-color: #FFFFFF;
-    font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 20px;  
-    border: none;
-    border: 0px;
+background-color: #FFFFFF;
+font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-size: 20px;
+border: none;
+border: 0px;
 }
 
 .space {
-    width: 100%;
-    height: 16px;
+width: 100%;
+height: 16px;
 }
 
 hr.solid {
-    border-top: 1px solid #2D2742;;
+border-top: 1px solid #2D2742;;
 }
-
-
 
 a:link { text-decoration: none; }
 a:visited { text-decoration: none; }
@@ -59,304 +58,242 @@ a:hover { text-decoration: none; }
 a:active { text-decoration: none; }
 
 .top_bar {
-   display: flex; 
-   width: 100%;
-   position: sticky;
+display: flex;
+width: 100%;
+position: sticky;
 
-   position: -webkit-sticky; /* Safari */
-   top: 0;
-   z-index: 100;
+position: -webkit-sticky; /* Safari */
+top: 0;
+z-index: 100;
 
 }
 
 .top_bar_01 {
-    flex: 4 ;
-    width: 45%;
-    
-    background-color: #D2FF1A ;
+flex: 4 ;
+width: 45%;
+
+background-color: #D2FF1A ;
 }
 .top_bar_02 {
-    flex: 3;
-    width: 30%;
-    height: 12px;
-   
-    background-color: #E843E5 ;
+flex: 3;
+width: 30%;
+height: 12px;
+
+background-color: #E843E5 ;
 }
 .top_bar_03 {
-    flex: 2;
-    width: 15%;
-    height: 12px;
-   
-    background-color: #A600FF;
+flex: 2;
+width: 15%;
+height: 12px;
+
+background-color: #A600FF;
 
 }
 .top_bar_04 {
-    flex: 1;
-    width: 10%;
-    height: 12px;
-   
-    background-color: #6143DF;
+flex: 1;
+width: 10%;
+height: 12px;
+
+background-color: #6143DF;
 }
 
 header {
-    width: 100%;
-    height: auto;
-    background-color: #D2FF1A; 
+width: 100%;
+height: auto;
+background-color: #D2FF1A;
 }
 
 .logo-menu {
-        width: 100%;
-    height: auto;
-    background-color: #2b2542;
+width: 100%;
+height: auto;
+background-color: #2b2542;
 
 }
 .top-header {
-  padding-top: 40px;
-  padding-bottom: 40px;
-  background-color: #2b2542;
 
- text-align: center;
+background-color: #2b2542;
 
+text-align: center;
 
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
+padding-top: 12px;
+scroll-padding-bottom: 12px;
+max-width: 1440px;
+width: 100%;
+margin: auto;
 
-    
-
-}
-
-
-
-
-
-  .logo img {
-    height: 80px;
-    width: auto;
- 
-  }
-
-
-  @media (max-width: 768px) {
- 
-  }
-.logo img a:link, a:visited, a:active { 
-    text-decoration: none;
-    border: none;
-    border: 0px;
-
-
-}
-
-
-.logo a img {
-  transition: transform 0.3s ease, opacity 0.3s ease;
-}
-
-.logo a:hover img {
-  transform: scale(1.05);
-  opacity: 0.9;
 }
 
 .logo img {
+height: 64px;
+padding: 20px;
 
-    border: none;
-    border: 0px;
-    padding: 0 0 0 20px;
-    margin: auto;
+width: auto;
 
 }
 
+.logo img a:link, a:visited, a:active {
+text-decoration: none;
+border: none;
+border: 0px;
+
+}
+
+.logo a img {
+transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo a:hover img {
+transform: scale(1.05);
+opacity: 0.9;
+}
 
 .second-button {
-    width: 12.375rem;
-    height: 3rem;
-    flex-shrink: 0;
-    border-radius: 0.5rem;
-    border: 1px solid #FFF;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    color: #FFF;
-    text-align: center;
-    font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.25rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: normal;
-    margin: 0 7rem 0 0;
+width: 12.375rem;
+height: 3rem;
+flex-shrink: 0;
+border-radius: 0.5rem;
+border: 1px solid #FFF;
+display: flex;
+flex-direction: column;
+justify-content: center;
+color: #FFF;
+text-align: center;
+font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-size: 1.25rem;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+margin: 0 7rem 0 0;
 
 }
 
 .main-header {
 
-    max-width: 1440px;
-    width: 100%;
-    margin: auto;
-    height: 272px;
-    background-color: #D2FF1A; 
-    
-    position: relative;
-     
-    
+max-width: 1440px;
+width: 100%;
+margin: auto;
+height: 272px;
+background-color: #D2FF1A;
+
+position: relative;
+
 }
 
 .main-header-group {
-    background-color: #D2FF1A; 
-    background-image: url(../img/bg-hands@2x.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: #D2FF1A;
+background-image: url(../img/bg-hands@2x.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
-    width: 100%;
-    height: 100%;
-
-
-    
-    
-
+width: 100%;
+height: 100%;
 
 }
-
-
 
 .title {
 
-    width: 100%;
-    height: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-
-   
-    
-
+width: 100%;
+height: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
 
 }
 
-
 .subtitle {
 
-    width: 100%;
-    padding-top: 12px;
-
-    
-
+width: 100%;
+padding-top: 12px;
 
 }
 
 .title H1 {
-    color: #2D2742;
-    font-family: "GasoekOne-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 38px;
-    font-weight: normal;
-
-
-    
+color: #2D2742;
+font-family: "GasoekOne-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-size: 38px;
+font-weight: normal;
 
 }
 
-
 .title H2 {
-    color: #2D2742;
-    font-family: "Bicyclette-Light", sans-serif;
-    font-size: 28px;
-    text-transform: uppercase;
-
-
-    
+color: #2D2742;
+font-family: "Bicyclette-Light", sans-serif;
+font-size: 28px;
+text-transform: uppercase;
 
 }
 
 section h2 {
-     font-family: "Bicyclette-Bold", sans-serif;
-     font-style: bold;
-     font-weight: 700;
-     color: #2D2742;
-     font-size: 2rem;
+font-family: "Bicyclette-Bold", sans-serif;
+font-style: bold;
+font-weight: 700;
+color: #2D2742;
+font-size: 2rem;
 
-     line-height: 1.75rem; /* 116.667% */
+line-height: 1.75rem; /* 116.667% */
 
 }
 
 section p {
-    color: #2D2742;
-    font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
-    font-size: 1.125rem;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 1.75rem; /* 155.556% */
+color: #2D2742;
+font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.75rem; /* 155.556% */
 }
 
 section img {
-    border-radius: 0.5rem;
-    max-width: 100%;
-    height: auto;
+border-radius: 0.5rem;
+max-width: 100%;
+height: auto;
 
 }
 
 .newsletter-grouptext {
 
- 
-    width: 100%;
-    height: 512px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+width: 100%;
+height: 512px;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
 
-
-    
 }
 
-
-
 .newsletter-group {
-    max-width: 800px;
-    width: 90%;
-    height: 512px;
-
-    margin: auto;
-    
-
-
-    
+max-width: 800px;
+width: 90%;
+height: 512px;
+margin: auto;
 
 }
 
 .newsletter-text {
-    width: 100%;
-    max-width: 572px;
+width: 100%;
+max-width: 572px;
 text-align: center;
-
-
-
-
 
 }
 
 .newsletter-text H2 {
-    color: #FFF;
-    text-align: center;
-    font-family: "Bicyclette-Bold", sans-serif;
-    font-style: bold;
-    font-weight: 700;
-    font-size: 2.75rem;
-
-    line-height: 2.5rem; /* 90.909% */
-    text-transform: uppercase;
- 
-    text-align: center;
-
-
+color: #FFF;
+text-align: center;
+font-family: "Bicyclette-Bold", sans-serif;
+font-style: bold;
+font-weight: 700;
+font-size: 2.75rem;
+line-height: 2.5rem; /* 90.909% */
+text-transform: uppercase;
+text-align: center;
 
 }
 
-
 .newsletter-text p {
 
-    color: #FFF;
+color: #FFF;
 text-align: center;
 font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 font-size: 1.25rem;
@@ -364,201 +301,167 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.75rem; /* 140% */
 
-
 }
 
 .newsletter-text .email  {
-    border-radius: 0.5rem;
-    border: 1px solid #B482FF;
-    background: #FFF;
-
-    height: 3rem;
-    flex-shrink: 0;
-    text-align: center;
+border-radius: 0.5rem;
+border: 1px solid #B482FF;
+background: #FFF;
+height: 3rem;
+flex-shrink: 0;
+text-align: center;
 
 }
 
-
-
 .newsletter-text .button {
-    background-color: #D2FF1A;
-    border: none;
-    
-    color: #2D2742;
+background-color: #D2FF1A;
+border: none;
+color: #2D2742;
 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-family: "Bicyclette-Bold", sans-serif;
-    font-style: bold;
-    font-weight: 700;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+font-family: "Bicyclette-Bold", sans-serif;
+font-style: bold;
+font-weight: 700;
 
-     height: 3rem;
-    border-radius: 8px;
-    transition-duration: 0.4s;
+height: 3rem;
+border-radius: 8px;
+transition-duration: 0.4s;
 
-  }
+}
 
-  .newsletter-text .button:hover {
-    background-color: #C4ED1C;
-    border: none;
-    color: #2D2742;
+.newsletter-text .button:hover {
+background-color: #C4ED1C;
+border: none;
+color: #2D2742;
 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-family: "Bicyclette-Bold", sans-serif;
-    font-style: bold;
-    height: 3rem;
-    border-radius: 8px;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+font-family: "Bicyclette-Bold", sans-serif;
+font-style: bold;
+height: 3rem;
+border-radius: 8px;
 
-  }
-
-
-
-
-
+}
 
 .newsletter {
 
-    background-color: #6143DF; 
-    background-image: url(../img/newsletter-bg.png);
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
+background-color: #6143DF;
+background-image: url(../img/newsletter-bg.png);
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
 
-    width: 100%;
-    height: 100%;
-    
-    
+width: 100%;
+height: 100%;
 
 }
 
-
-
-
-
-
-
-
-
-
-
 .content {
-    width: 90%;
-    height: auto;
-    margin: auto;
-    min-width: 360px;
-    max-width: 800px;
+width: 90%;
+height: auto;
+margin: auto;
+min-width: 360px;
+max-width: 800px;
 
-    
 }
 
 .button {
-    background-color: #D2FF1A;
-    border: none;
-    
-    color: #2D2742;
+background-color: #D2FF1A;
+border: none;
 
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-family: "Bicyclette-Bold", sans-serif;
-    font-style: bold;
-    font-weight: 700;
+color: #2D2742;
+
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+font-family: "Bicyclette-Bold", sans-serif;
+font-style: bold;
+font-weight: 700;
 width: 90%;
-     height: 3rem;
-    border-radius: 8px;
-    transition-duration: 0.4s;
-
-  }
-
-  .button:hover {
-    background-color: #C4ED1C;
-    border: none;
-    color: #610095;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 20px;
-    font-family: "Bicyclette-Bold", sans-serif;
-    width: 90%;
-    border-radius: 8px;
-  }
-
-.email {
-    width: 90%;
-    height: 44px;
-    border-radius: 8px;
-    font-size: 20px;
-    text-align: center;
-     font-family: "Bicyclette-Bold", sans-serif;
-    background-color: #FFFFFF;
-    border-style: none;
-    border: 1px solid #2D2742;
-
+height: 3rem;
+border-radius: 8px;
+transition-duration: 0.4s;
 
 }
 
+.button:hover {
+background-color: #C4ED1C;
+border: none;
+color: #610095;
+text-align: center;
+text-decoration: none;
+display: inline-block;
+font-size: 20px;
+font-family: "Bicyclette-Bold", sans-serif;
+width: 90%;
+border-radius: 8px;
+}
+
+.email {
+width: 90%;
+height: 44px;
+border-radius: 8px;
+font-size: 20px;
+text-align: center;
+font-family: "Bicyclette-Bold", sans-serif;
+background-color: #FFFFFF;
+border-style: none;
+border: 1px solid #2D2742;
+
+}
 
 .about {
 
-    width: 100%;
-    min-height: 649px;
+width: 100%;
+min-height: 649px;
 
-    background-color: #2D2742;
-
-
+background-color: #2D2742;
 
 }
 
-
 .about-group {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
+width: 100%;
+display: flex;
+align-items: center;
+justify-content: center;
+text-align: center;
 }
 
 .about-text {
-    width: 90%;
-    max-width: 572px;
-    text-align: center;
-
-
+width: 90%;
+max-width: 572px;
+text-align: center;
 
 }
-
 
 .about-text H2 {
-    color: #FFF;
-    text-align: center;
-    font-family: "Bicyclette-Bold", sans-serif;
-    font-size: 2.75rem;
-    font-style: normal;
-    font-weight: 700;
-    line-height: 2.5rem; /* 90.909% */
-    text-transform: uppercase;
- 
-    text-align: center;
+color: #FFF;
+text-align: center;
+font-family: "Bicyclette-Bold", sans-serif;
+font-size: 2.75rem;
+font-style: normal;
+font-weight: 700;
+line-height: 2.5rem; /* 90.909% */
+text-transform: uppercase;
 
-
+text-align: center;
 
 }
 
-
 .about-text img {
-    width: 188px ;
+width: 188px ;
 
 }
 
 .about-text p {
 
-    color: #FFF;
+color: #FFF;
 text-align: center;
 font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 font-size: 1.25rem;
@@ -566,656 +469,459 @@ font-style: normal;
 font-weight: 400;
 line-height: 1.75rem; /* 140% */
 
-
 }
 
 footer {
-    background-color: #E843E5;
-    width: 100%;
-    margin: auto;
-
+background-color: #E843E5;
+width: 100%;
+margin: auto;
 
 }
 
-
 .social {
-    display: flex; 
-    min-width: 300px;
-    max-width: 300px;
-    width: 100%;
-    margin: auto;
+display: flex;
+min-width: 300px;
+max-width: 300px;
+width: 100%;
+margin: auto;
 
-    align-items: center;
-    justify-content: space-between;
-    height: 44px;
+align-items: center;
+justify-content: space-between;
+height: 44px;
 }
 
 .social img {
 
-    width: 32px;
+width: 32px;
 }
 
-
-
 .social p {
-    text-align: center;
-    color: #FFF;
-    margin: auto;
-    text-transform: uppercase;
+text-align: center;
+color: #FFF;
+margin: auto;
+text-transform: uppercase;
 }
 
 .social p a:link, a:visited, a:active {
-    color: #FFF;
-    text-decoration-line: none;
+color: #FFF;
+text-decoration-line: none;
 
 }
 
 .social p a:hover {
-    color: #FFF;
-    text-decoration-line: line-through;
-   
+color: #FFF;
+text-decoration-line: line-through;
 
 }
 
-
-
-
 .linkedin .instagram .youtube {
-    width: 52px;
+width: 52px;
 }
 
 .logo-eye {
-    text-align: center;
-
+text-align: center;
 
 }
 
 footer a img:hover {
 
-    opacity: 0.4;
+opacity: 0.4;
 
 }
-
 
 .year {
-    width: 100%;
-    height: 32px;
-    background-color: #6143DF;
-    color: #FFFFFF;
-    font-size: 12px;
-     font-family: "Bicyclette-Light", sans-serif;
-    text-align: center;
-    align-items: center;
-    display: flex;
-    justify-content: center;
+width: 100%;
+height: 32px;
+background-color: #6143DF;
+color: #FFFFFF;
+font-size: 12px;
+font-family: "Bicyclette-Light", sans-serif;
+text-align: center;
+align-items: center;
+display: flex;
+justify-content: center;
 }
-
-
-
 
 .title H1 {
 
-    font-size: 32px;
-    line-height: 38px;
-
+font-size: 32px;
+line-height: 38px;
 
 }
 
-
 .title H2 {
 
-    font-size: 20px;  
-    line-height: 24px
+font-size: 20px;
+line-height: 24px
 
 }
 
 .about-text H2 {
 
-
-    font-size: 32px;
-    line-height: 38px;
+font-size: 32px;
+line-height: 38px;
 
 }
-
 
 .newsletter-text H2 {
 
-
-    font-size: 32px;  
-    line-height: 38px;
+font-size: 32px;
+line-height: 38px;
 
 }
 
-
-
-  
 /* Scroll animation */
 .scroll-fade-in {
-    opacity: 0;
-    transform: translateY(20px);
-    transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+opacity: 0;
+transform: translateY(20px);
+transition: opacity 0.6s ease-out, transform 0.6s ease-out;
 }
 .scroll-fade-in.visible {
-    opacity: 1;
-    transform: none;
+opacity: 1;
+transform: none;
 }
-
-@media only screen and (max-width: 768px) {
-  .space {
-    height: 8px;
-  }
-
-  body {
-    font-size: 1rem;
-  }
-
-  .title H1,
-  .newsletter-text H2,
-  .about-text H2 {
-    font-size: 2rem;  /* 32px */
-    line-height: 2.375rem; /* 38px */
-  }
-
-  .title H2 {
-    font-size: 1.25rem; /* 20px */
-    line-height: 1.5rem; /* 24px */
-  }
-
-  .about-text p,
-  .newsletter-text p,
-
-  section p {
-    font-size: 1rem;
-    line-height: 1.6rem;
-  }
-
-  .button,
-  .second-button,
-  .newsletter-text .button {
-    font-size: 1rem;
-    height: 2.75rem;
-  }
-
-  .email,
-  .newsletter-text .email {
-    font-size: 1rem;
-    height: 2.75rem;
-  }
-}
-
 
 /* Hide menu by default on mobile */
 .main-nav {
-  margin-left: auto;
-  display: none;
-  flex-direction: column;
-  align-items: flex-start;
-  background-color: #2D2742;
-  position: absolute;
-  top: 80px; /* adjust based on your header height */
-  right: 0;
-  width: 100%;
-  padding: 20px;
-  z-index: 1000;
+margin-left: auto;
+display: none;
+flex-direction: column;
+align-items: flex-start;
+background-color: #2D2742;
+position: absolute;
+top: 80px; /* adjust based on your header height */
+right: 0;
+width: 100%;
+padding: 20px;
+z-index: 1000;
 }
 
 /* Show menu when active */
 .main-nav.active {
-  display: flex;
+display: flex;
 }
 
 /* Optional: style links in mobile */
 .main-nav ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  width: 100%;
+list-style: none;
+padding: 0;
+margin: 0;
+width: 100%;
 }
 
 .main-nav ul li {
-  margin: 10px 0;
+margin: 10px 0;
 }
 
 .main-nav ul li a {
-  color: white;
-  text-decoration: none;
-  font-size: 18px;
-}
-
-@media screen and (min-width: 768px) {
-  .burger {
-    display: none;
-  }
-
-  .main-nav {
-  margin-left: auto;
-    display: flex !important;
-    position: static;
-    flex-direction: row;
-    justify-content: flex-end;
-    background: none;
-    padding: 0;
-  }
-
-  .main-nav ul {
-    display: flex;
-    gap: 30px;
-  }
-
-  .main-nav.active {
-    display: flex;
-  }
+color: white;
+text-decoration: none;
+font-size: 18px;
 }
 
 .whole-project {
 
+width: 100%;
 
-            width: 100%;
-
-    background: linear-gradient(to right, #ffffff 66%, #EFEFFF 34%);
-    
+background: linear-gradient(to right, #ffffff 66%, #EFEFFF 34%);
 
 }
 
-
-
 .project-section {
-  display: flex;
-        max-width: 1440px;
-    width: 100%;
-    margin: auto;
+display: flex;
+max-width: 1440px;
+width: 100%;
+margin: auto;
 height: auto;
-  font-family: "Bicyclette-Regular", sans-serif;
-  
+font-family: "Bicyclette-Regular", sans-serif;
+
 }
 
 .project-left {
-  flex: 2;
-  padding: 72px 0 72px 20px;
-  background: #FFFFFF;
-  color: #2D2742;
+flex: 2;
+padding: 72px 0 72px 20px;
+background: #FFFFFF;
+color: #2D2742;
 }
 
 .project-right {
-  flex: 1;
+flex: 1;
 padding: 72px 0 72px 20px;
-  background-color: #EFEFFF;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-start;
+background-color: #EFEFFF;
+display: flex;
+flex-direction: column;
+justify-content: flex-start;
 }
 
 .project-left h1 {
-  font-family: "Bicyclette-Bold", sans-serif;
-  font-size: 48px;
+font-family: "Bicyclette-Bold", sans-serif;
+font-size: 48px;
 
 }
 
 .project-subtitle {
-  font-family: "Bicyclette-Light", sans-serif;
-  font-size: 20px;
-  color: #666;
-  padding-bottom: 16px;
+font-family: "Bicyclette-Light", sans-serif;
+font-size: 20px;
+color: #666;
+padding-bottom: 16px;
 }
 
 .project-left h2 {
-  font-size: 28px;
-  font-family: "Bicyclette-Bold", sans-serif;
-  padding-top: 16px;
-  padding-bottom: 12px;
+font-size: 28px;
+font-family: "Bicyclette-Bold", sans-serif;
+padding-top: 16px;
+padding-bottom: 12px;
 
 }
 
 .project-left p {
-  font-size: 18px;
-  line-height: 1.8;
-  color: #2D2742;
-  margin-bottom: 24px;
-  max-width: 90%;
+font-size: 18px;
+line-height: 1.8;
+color: #2D2742;
+margin-bottom: 24px;
+max-width: 90%;
 }
 
 .project-intro {
-  font-family: "Bicyclette-Regular", sans-serif;
-  
-  color: #2D2742;
+font-family: "Bicyclette-Regular", sans-serif;
+
+color: #2D2742;
 }
 
 .info-block {
-  margin-bottom: 40px;
+margin-bottom: 40px;
 }
 
 .label {
-  font-size: 16px;
-  color: #2D2742;
-  font-family: "Bicyclette-Light", sans-serif;
-  margin-bottom: 8px;
+font-size: 16px;
+color: #2D2742;
+font-family: "Bicyclette-Light", sans-serif;
+margin-bottom: 8px;
 }
 
 .value {
-  font-size: 22px;
-  font-family: "Bicyclette-Bold", sans-serif;
-  line-height: 1.6;
-  color: #2D2742;
+font-size: 22px;
+font-family: "Bicyclette-Bold", sans-serif;
+line-height: 1.6;
+color: #2D2742;
 }
 
 .project-text {
-  flex: 1 1 55%;
-  max-width: 700px;
-  color: #2D2742;
-  font-family: "Bicyclette-Regular", sans-serif;
+flex: 1 1 55%;
+max-width: 700px;
+color: #2D2742;
+font-family: "Bicyclette-Regular", sans-serif;
 }
 
 .project-meta {
-  flex: 1 1 30%;
-  background-color: #EDEBFA;
-  padding: 32px;
-  color: #2D2742;
-  font-family: "Bicyclette-Regular", sans-serif;
+flex: 1 1 30%;
+background-color: #EDEBFA;
+padding: 32px;
+color: #2D2742;
+font-family: "Bicyclette-Regular", sans-serif;
 }
 
 .project-meta p {
-  font-weight: normal;
-  font-size: 1rem;
-  margin-bottom: 0.5rem;
+font-weight: normal;
+font-size: 1rem;
+margin-bottom: 0.5rem;
 }
 
 .project-meta h3 {
-  font-size: 1.25rem;
-  font-weight: bold;
-  line-height: 1.6;
+font-size: 1.25rem;
+font-weight: bold;
+line-height: 1.6;
 }
 
 .project-text h1 {
-  font-family: "Bicyclette-Bold", sans-serif;
-  font-size: 2.5rem;
-  margin-bottom: 0.25rem;
+font-family: "Bicyclette-Bold", sans-serif;
+font-size: 2.5rem;
+margin-bottom: 0.25rem;
 }
 
 .project-text h2 {
-  margin-top: 2rem;
-  font-family: "Bicyclette-Bold", sans-serif;
-  font-size: 1.5rem;
+margin-top: 2rem;
+font-family: "Bicyclette-Bold", sans-serif;
+font-size: 1.5rem;
 }
 
 .project-text h3 {
-  font-family: "Bicyclette-Light", sans-serif;
-  font-size: 1.125rem;
-  font-weight: normal;
-  color: #666;
-  margin-bottom: 1rem;
+font-family: "Bicyclette-Light", sans-serif;
+font-size: 1.125rem;
+font-weight: normal;
+color: #666;
+margin-bottom: 1rem;
 }
 
 .project-text p {
-  font-size: 1.1rem;
-  line-height: 1.7;
-  margin-bottom: 1.5rem;
+font-size: 1.1rem;
+line-height: 1.7;
+margin-bottom: 1.5rem;
 }
 
-
 .text-block h2 {
-  margin-top: 2rem;
-  font-family: "Bicyclette-Bold", sans-serif;
-  font-size: 1.5rem;
+margin-top: 2rem;
+font-family: "Bicyclette-Bold", sans-serif;
+font-size: 1.5rem;
 
 }
 
 .newsletter-text h2 {
-  
-    font-size: 1.75rem;
-    line-height: 1.3;
-    max-width: 90%;
-    margin: auto;
-  }
 
-  .about-text h2 {
-  
-    font-size: 1.75rem;
-    line-height: 1.3;
-    max-width: 90%;
-    margin: auto;
-  }
-
-  .text-block p {
-  font-size: 18px;
-  line-height: 1.8;
-  color: #2D2742;
-  margin-bottom: 24px;
-  max-width: 90%;
+font-size: 1.75rem;
+line-height: 1.3;
+max-width: 90%;
+margin: auto;
 }
 
-  .text-block ul {
-  font-size: 18px;
-  line-height: 1.8;
-  color: #2D2742;
-  margin-bottom: 24px;
-  max-width: 90%;
+.about-text h2 {
+
+font-size: 1.75rem;
+line-height: 1.3;
+max-width: 90%;
+margin: auto;
 }
 
-@media screen and (max-width: 900px) {
-  .project-section {
-    flex-direction: column;
+.text-block p {
+font-size: 18px;
+line-height: 1.8;
+color: #2D2742;
+margin-bottom: 24px;
+max-width: 90%;
+}
 
-    
-  }
-
-
-  .project-left {
-  padding: 40px 0 0 20px;
-  }
-
-
-  .project-right {
- padding: 20px 0 0 20px;
-  }
-
-   .project-section h1 {
-    font-size: 32px ;
-        line-height: 1.4rem; 
-        margin: 0 0 0 0;
-
-  }
-
-     .project-section h2 {
-
-        margin: 0 0 0 0;
-
-  }
-  
-     .project-section h3 {
-      font-size: 16px;
-    line-height: 1.4rem; 
-    margin: 0 0 0 0;
-
-  }
-  
-  .project-section p  {
-      font-size: 16px;
-    line-height: 1.4rem; 
-
-  }
-  .project-meta {
-    width: 100%;
-  }
+.text-block ul {
+font-size: 18px;
+line-height: 1.8;
+color: #2D2742;
+margin-bottom: 24px;
+max-width: 90%;
 }
 
 .project-main-image {
 
-     width: 100%;
-    margin: auto;
+width: 100%;
+margin: auto;
 
 }
-
 
 .project-image {
 
-
-  text-align: center;
+text-align: center;
 max-width: 1440px;
-    width: 100%;
+width: 100%;
 
-    margin: auto;
+margin: auto;
 }
 
 .project-image img {
-  width: 100%;
+width: 100%;
 display: block;
-  margin: 0;
-  padding: 0;
-  height: auto;
-
+margin: 0;
+padding: 0;
+height: auto;
 
 }
 
-
-
 .solution-section {
-  background-color: #EFEFFF;
-   width: 100%;
-    margin: auto;
-
+background-color: #EFEFFF;
+width: 100%;
+margin: auto;
 
 }
 
 .solution-section img {
-  width: 100%;
+width: 100%;
 display: block;
-  margin: 0;
-  padding: 0;
-  height: auto;
- border-radius: 0rem;
-
+margin: 0;
+padding: 0;
+height: auto;
+border-radius: 0rem;
 
 }
 
 .solution-outcome-section {
- max-width: 1440px;
-    width: 100%;
+max-width: 1440px;
+width: 100%;
 
-    margin: auto;   
-  display: flex;
-  flex-direction: column;
+margin: auto;
+display: flex;
+flex-direction: column;
 
 }
 
 .content-block {
-  display: flex;
-  flex-direction: column;
-  background-color: #EFEFFF;
+display: flex;
+flex-direction: column;
+background-color: #EFEFFF;
 
-
-  margin: 0 auto;
+margin: 0 auto;
 }
 
 .text-block {
 
-  font-family: "Bicyclette", sans-serif;
-
- 
+font-family: "Bicyclette", sans-serif;
 
 }
 
 .text-block h2 {
-  font-size: 28px;
-  font-family: "Bicyclette-Bold", sans-serif;
-  padding-top: 16px;
-  padding-bottom: 12px;
-   padding: 0 44px 0 44px;
+font-size: 28px;
+font-family: "Bicyclette-Bold", sans-serif;
+padding-top: 16px;
+padding-bottom: 12px;
+padding: 0 44px 0 44px;
 }
 
 .text-block p,
 .text-block ul {
-  font-size: 18px;
-  line-height: 1.8;
- padding: 0 44px 0 44px;
-  
+font-size: 18px;
+line-height: 1.8;
+padding: 0 44px 0 44px;
+
 }
 
 .text-block ul {
-  padding: 0 44px 0 44px;
-  list-style-type: disc;
-    font-size: 18px;
-  line-height: 1.8;
+padding: 0 44px 0 44px;
+list-style-type: disc;
+font-size: 18px;
+line-height: 1.8;
 }
 
 .image-block img {
-  width: 100%;
-  max-width: 720px;
-  object-fit: contain;
-  background-color: #D2FF1A;
+width: 100%;
+max-width: 720px;
+object-fit: contain;
+background-color: #D2FF1A;
 
 }
 
 /* Desktop layout */
-@media (min-width: 768px) {
-  .content-block {
-    flex-direction: row;
-    align-items: center;
-  }
-
-  .content-block.reverse {
-    flex-direction: row-reverse;
-  }
-
-  .text-block,
-  .image-block {
-    flex: 1;
-  }
-
-  .text-block {
-    padding: 0 0 0 0px;
-  }
-
-  .image-block {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    height: 100%;
-    background-color: #E843E5;
-  }
-    .image-block img {
-    max-height: 100%;
-    max-width: 100%;
-    object-fit: contain;
-  }
-}
-
-
-
 
 /* ===== SECTION BREAK ===== */
 
 /* === Header === */
 
-
-
 /* ===== SECTION BREAK ===== */
 
 /* === Main Navigation (Desktop) === */
-
-
 
 /* ===== SECTION BREAK ===== */
 
 /* === Main Navigation (Mobile) === */
 
-
-
 /* ===== SECTION BREAK ===== */
 
 /* === Main Header & Hero Section === */
-
-
 
 /* ===== SECTION BREAK ===== */
 
 /* === Sections === */
 
-section { 
-    width: 100%;
-    background-color: #FFF;
-    margin: auto;
-    display: flex;
- 
+section {
+width: 100%;
+background-color: #FFF;
+margin: auto;
+display: flex;
 
 }
 
@@ -1223,28 +929,22 @@ section {
 
 /* === Newsletter === */
 
-
-
 /* ===== SECTION BREAK ===== */
 
 /* === About Section === */
 
-
-
 /* ===== SECTION BREAK ===== */
 
 /* === Projects === */
-
-
 
 /* ===== SECTION BREAK ===== */
 
 /* === Footer === */
 
 footer img {
-    width: 86px;
-    transition-duration: 0.4s;
- 
+width: 86px;
+transition-duration: 0.4s;
+
 }
 
 /* ===== SECTION BREAK ===== */
@@ -1252,84 +952,155 @@ footer img {
 /* === Buttons & Forms === */
 
 input {
-    border-radius: 0;
-  }
+border-radius: 0;
+}
 
 /* ===== SECTION BREAK ===== */
 
 /* === Animations === */
 
-
-
 /* ===== SECTION BREAK ===== */
 
 /* === Media Queries === */
-
-
 
 /* ===== SECTION BREAK ===== */
 
 /* === Other / Utilities === */
 
-
-
-
-
-
-
-  
-
-
-
 img {
-    border: none;
-    border: 0px;
+border: none;
+border: 0px;
 
-  margin: 0;
-  padding: 0;
+margin: 0;
+padding: 0;
 }
 
 
+/* === MOBILE / MEDIA QUERIES === */
 
+@media (max-width: 768px) {
+.logo img {
+height: 40px;
+padding: 12px;
+width: auto;
+}
+}
 
+@media only screen and (max-width: 768px) {
+.space {
+height: 8px;
+}
+body {
+font-size: 1rem;
+}
+.title H1,
+.newsletter-text H2,
+.about-text H2 {
+font-size: 2rem;  /* 32px */
+line-height: 2.375rem; /* 38px */
+}
+.title H2 {
+font-size: 1.25rem; /* 20px */
+line-height: 1.5rem; /* 24px */
+}
+.about-text p,
+.newsletter-text p,
+section p {
+font-size: 1rem;
+line-height: 1.6rem;
+}
+.button,
+.second-button,
+.newsletter-text .button {
+font-size: 1rem;
+height: 2.75rem;
+}
+.email,
+.newsletter-text .email {
+font-size: 1rem;
+height: 2.75rem;
+}
+}
 
+@media screen and (min-width: 768px) {
+.burger {
+display: none;
+}
+.main-nav {
+margin-left: auto;
+display: flex !important;
+position: static;
+flex-direction: row;
+justify-content: flex-end;
+background: none;
+padding: 0;
+}
+.main-nav ul {
+display: flex;
+gap: 30px;
+}
+.main-nav.active {
+display: flex;
+}
+}
 
+@media screen and (max-width: 900px) {
+.project-section {
+flex-direction: column;
+}
+.project-left {
+padding: 40px 0 0 20px;
+}
+.project-right {
+padding: 20px 0 0 20px;
+}
+.project-section h1 {
+font-size: 32px ;
+line-height: 1.4rem;
+margin: 0 0 0 0;
+}
+.project-section h2 {
+margin: 0 0 0 0;
+}
+.project-section h3 {
+font-size: 16px;
+line-height: 1.4rem;
+margin: 0 0 0 0;
+}
+.project-section p  {
+font-size: 16px;
+line-height: 1.4rem;
+}
+.project-meta {
+width: 100%;
+}
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+@media (min-width: 768px) {
+.content-block {
+flex-direction: row;
+align-items: center;
+}
+.content-block.reverse {
+flex-direction: row-reverse;
+}
+.text-block,
+.image-block {
+flex: 1;
+}
+.text-block {
+padding: 0 0 0 0px;
+}
+.image-block {
+display: flex;
+align-items: center;
+justify-content: center;
+height: 100%;
+background-color: #E843E5;
+}
+.image-block img {
+max-height: 100%;
+max-width: 100%;
+object-fit: contain;
+}
+}
