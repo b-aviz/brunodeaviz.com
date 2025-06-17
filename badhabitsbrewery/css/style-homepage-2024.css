@@ -864,6 +864,15 @@ font-family: "Bicyclette", sans-serif;
 
 }
 
+.sidebysideimage {
+
+max-width: 1440px;
+width: 100%;
+margin: 0 auto;
+  
+}
+
+
 .text-block h2 {
 font-size: 28px;
 font-family: "Bicyclette-Bold", sans-serif;
