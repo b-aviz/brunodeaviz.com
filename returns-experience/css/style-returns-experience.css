@@ -1,0 +1,1092 @@
+/* === Fonts and Base Styles === */
+
+@font-face {
+  font-family: "Bicyclette-Regular";
+  src: url("../fonts/Bicyclette-Regular.woff2");
+  font-weight: normal;
+}
+
+@font-face {
+  font-family: "Bicyclette-Light";
+  src: url("../fonts/Bicyclette-Light.woff2");
+  font-weight: light;
+}
+
+@font-face {
+  font-family: "Bicyclette-Bold";
+  src: url("../fonts/Bicyclette-Bold.woff2");
+  font-weight: bold;
+}
+
+
+@font-face {
+  font-family: "Bicyclette-Black";
+  src: url("../fonts/Bicyclette-Black.woff2");
+  font-weight: bolder;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #FFFFFF;
+  font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 20px;
+  border: none;
+  border: 0px;
+}
+
+.space {
+  width: 100%;
+  height: 16px;
+}
+
+
+
+a:link {
+  text-decoration: none;
+}
+
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+a:active {
+  text-decoration: none;
+}
+
+.top_bar {
+  display: flex;
+  width: 100%;
+  position: sticky;
+  position: -webkit-sticky;
+  /* Safari */
+  top: 0;
+  z-index: 100;
+
+}
+
+.top_bar_01 {
+  flex: 4;
+  width: 45%;
+  background-color: #D2FF1A;
+}
+
+.top_bar_02 {
+  flex: 3;
+  width: 30%;
+  height: 12px;
+
+  background-color: #E843E5;
+}
+
+.top_bar_03 {
+  flex: 2;
+  width: 15%;
+  height: 12px;
+
+  background-color: #A600FF;
+
+}
+
+.top_bar_04 {
+  flex: 1;
+  width: 10%;
+  height: 12px;
+
+  background-color: #6143DF;
+}
+
+header {
+  width: 100%;
+  height: auto;
+  background-color: #D2FF1A;
+}
+
+.logo-menu {
+  width: 100%;
+  height: auto;
+  background-color: #2b2542;
+
+}
+
+.top-header {
+  background-color: #2b2542;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 152px;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+}
+
+
+
+.main-nav ul {
+  list-style: none;
+  display: flex;
+  gap: 50px;
+  margin: 0;
+  justify-content: flex-end;
+}
+
+.logo img {
+  height: 80px;
+  width: auto;
+  padding: 0 0 0 40px;
+}
+
+.main-nav {
+  margin-left: auto;
+  display: flex;
+
+}
+
+
+.main-nav.active {
+  display: block;
+
+}
+
+
+
+.main-nav a {
+  padding: 0 40px 0 0;
+  color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+}
+
+.main-nav a:hover {
+  text-decoration:line-through ;
+  
+
+}
+
+.burger {
+  display: none;
+  flex-direction: column;
+  gap: 6px;
+  cursor: pointer;
+}
+
+.burger span {
+  height: 3px;
+  width: 25px;
+  background: white;
+  display: block;
+}
+
+/* M O B I L E */
+
+@media (max-width: 768px) {
+  .main-nav {
+    margin-left: auto;
+    display: none;
+    position: absolute;
+    top: 80px;
+    right: 0;
+    background: #2b2542;
+    width: 100%;
+  }
+
+  .main-nav.active {
+    display: block;
+  }
+
+  .main-nav ul {
+    flex-direction: column;
+    align-items: center;
+    padding: 20px 0;
+  }
+
+  .burger {
+    display: flex;
+    padding: 0 20px 0 0;
+  }
+
+  .space {
+    height: 8px;
+  }
+
+
+
+
+}
+
+.logo img a:link,
+a:visited,
+a:active {
+  text-decoration: none;
+  border: none;
+  border: 0px;
+
+
+}
+
+
+.logo a img {
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.logo a:hover img {
+  transform: scale(1.05);
+  opacity: 0.9;
+}
+
+.logo img {
+
+  border: none;
+  border: 0px;
+  padding: 0 0 0 20px;
+
+}
+
+
+
+.title {
+
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+
+
+
+}
+
+
+section img {
+  border-radius: 0.5rem;
+  max-width: 100%;
+  height: auto;
+
+}
+
+.newsletter-grouptext {
+
+
+  width: 100%;
+  height: 512px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+
+
+
+}
+
+
+
+.newsletter-group {
+ max-width: 1440px;
+  width: 100%;
+  height: 512px;
+
+  margin: auto;
+
+
+
+
+
+}
+
+form {
+  width: 572px;
+   margin: auto;
+}
+
+@media screen and (max-width: 768px) { 
+
+  form {
+  width: 100%;
+   margin: auto;
+
+   
+}
+
+  .newsletter-text p {
+    font-size: 1rem;
+    line-height: 1.6;
+     padding: 0 1.5rem 0 1.5rem;
+  }
+
+
+
+
+}
+
+
+.newsletter-text {
+ max-width: 1440px;
+  width: 100%;
+  text-align: center;
+
+
+
+
+
+}
+
+
+.newsletter-text p {
+
+  color: #FFF;
+  text-align: center;
+  font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75rem;
+
+  /* 140% */
+
+
+}
+
+.newsletter-text .email {
+  border-radius: 0.5rem;
+  border: 1px solid #B482FF;
+  background: #FFF;
+  height: 3rem;
+  flex-shrink: 0;
+  text-align: center;
+
+}
+
+
+
+.newsletter-text .button {
+  background-color: #D2FF1A;
+  border: none;
+  color: #2D2742;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  height: 3rem;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+
+}
+
+.newsletter-text .button:hover {
+  background-color: #C4ED1C;
+  border: none;
+  color: #2D2742;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-style: bold;
+  height: 3rem;
+  border-radius: 8px;
+
+}
+
+
+
+
+
+
+.newsletter {
+  background-color: #6143DF;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+
+
+
+.about-text H2 {
+
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.4;
+  color: #FFF;
+
+
+}
+
+
+.newsletter-text H2 {
+
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.4;
+  color: #FFF;
+  
+
+
+
+}
+
+
+
+
+
+
+
+
+
+.button {
+  background-color: #D2FF1A;
+  border: none;
+  color: #2D2742;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-style: bold;
+  font-weight: 700;
+  width: 90%;
+  height: 3rem;
+  border-radius: 8px;
+  transition-duration: 0.4s;
+
+}
+
+.button:hover {
+  background-color: #C4ED1C;
+  border: none;
+  color: #610095;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  font-family: "Bicyclette-Bold", sans-serif;
+  width: 90%;
+  border-radius: 8px;
+}
+
+.email {
+  width: 90%;
+  height: 44px;
+  border-radius: 8px;
+  font-size: 20px;
+  text-align: center;
+  font-family: "Bicyclette-Bold", sans-serif;
+  background-color: #FFFFFF;
+  border-style: none;
+  border: 1px solid #2D2742;
+
+
+}
+
+
+.about {
+
+  width: 100%;
+
+  background-color: #2D2742;
+
+
+
+}
+
+
+.about-group {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.about-text {
+max-width: 1440px;
+  width: 100%;
+  text-align: center;
+
+
+
+}
+
+
+.about-text img {
+  width: 188px;
+
+}
+
+.about-text p {
+
+  color: #FFF;
+  text-align: center;
+  font-family: "Bicyclette-Regular", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  /* 140% */
+
+
+}
+
+footer {
+  background-color: #E843E5;
+  width: 100%;
+  margin: auto;
+
+
+}
+
+
+.social {
+  display: flex;
+  min-width: 300px;
+  max-width: 300px;
+  width: 100%;
+  margin: auto;
+
+  align-items: center;
+  justify-content: space-between;
+  height: 44px;
+}
+
+.social img {
+
+  width: 32px;
+}
+
+
+
+.social p {
+  text-align: center;
+  color: #FFF;
+  margin: auto;
+  text-transform: uppercase;
+}
+
+.social p a:link,
+a:visited,
+a:active {
+  color: #FFF;
+  text-decoration-line: none;
+
+}
+
+.social p a:hover {
+  color: #FFF;
+  text-decoration-line: line-through;
+
+
+}
+
+
+
+
+.linkedin .instagram .youtube {
+  width: 52px;
+}
+
+.logo-eye {
+  text-align: center;
+
+
+}
+
+footer a img:hover {
+
+  opacity: 0.4;
+
+}
+
+
+.year {
+  width: 100%;
+  height: 32px;
+  background-color: #6143DF;
+  color: #FFFFFF;
+  font-size: 12px;
+  font-family: "Bicyclette-Light", sans-serif;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+
+/* DESKTOP TEXT */
+
+.project-left H1 {
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  color: #2D2742;
+  padding: 2rem 0 1rem 0;
+
+
+}
+
+.text-block H1 {
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.3;
+  color: #2D2742;
+  padding: 2rem 0 1rem 0;
+
+
+}
+
+.project-left h2 {
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.4;
+  color: #2D2742;
+  padding:  2rem 0 1rem 0;
+ 
+
+}
+
+.text-block h2 {
+  font-family: "Bicyclette-Bold", sans-serif;
+  font-size: 1.75rem;
+  line-height: 1.4;
+  color: #2D2742;
+  padding:  2rem 0 1rem 0;
+ 
+
+}
+
+
+.text-block h3 {
+  font-family: "Bicyclette-Bold", sans-serif;
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2D2742;
+
+ 
+
+}
+
+.project-subtitle {
+  font-family: "Bicyclette-Light", sans-serif;
+  font-size: 20px;
+  color: #666;
+  padding-bottom: 16px;
+}
+
+.project-left p, li {
+  font-family: "Bicyclette-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #2D2742;
+}
+
+.text-block p, li {
+  font-family: "Bicyclette-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #2D2742;
+}
+
+.project-left ul {
+    padding-left: 1.5rem;
+  
+}
+
+.text-block ul {
+    padding-left: 1.5rem;
+  
+}
+
+
+
+
+.text-block-ux-row p, li {
+  font-family: "Bicyclette-Regular", sans-serif;
+  font-size: 1.125rem;
+  line-height: 1.8;
+  color: #2D2742;
+}
+
+
+.text-block-ux-row h3 {
+  font-family: "Bicyclette-Bold", sans-serif;
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2D2742;
+
+ 
+
+}
+
+
+@media screen and (max-width: 768px) {
+  body {
+    font-size: 1rem;
+  }
+
+  .project-left h1 {
+    font-size: 2rem;
+  }
+
+  .project-left h2 {
+    font-size: 1.4rem;
+  }
+
+  .project-left h3 {
+    font-size: 1.1rem;
+  }
+
+  .project-left p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+ 
+
+  .project-left {
+    padding: 0 1.5rem 0 1.5rem;
+
+  }
+
+
+    .text-block h1 {
+    font-size: 2rem;
+  }
+
+  .text-block h2 {
+    font-size: 1.4rem;
+  }
+
+  .text-block h3 {
+    font-size: 1.1rem;
+  }
+
+  .text-block p, li {
+    font-size: 1rem;
+    line-height: 1.6;
+  }
+
+ 
+
+  .text-block {
+    padding: 0 1.5rem 0 1.5rem;
+
+  }
+
+  .text-block-ux-row p, li {
+  font-family: "Bicyclette-Regular", sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+  color: #2D2742;
+}
+
+
+.text-block-ux-row h3 {
+  font-family: "Bicyclette-Bold", sans-serif;
+  margin-top: 1.2rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #2D2742;
+
+ 
+
+}
+
+.text-block-ux-row {
+    padding: 0 1.5rem 0 1.5rem;
+
+  }
+.ux-row IMG {
+  width: 100%;
+  margin: auto;
+}
+.solution-outcome-section {
+
+    width: 100%;
+  margin: auto;
+  padding: 0 0 0 0;
+  margin: 0 0 0 0;
+}
+
+
+}
+
+
+.project-ux-grid IMG {
+
+  padding: 20px 20px 20px 0;
+
+}
+
+/* Scroll animation */
+.scroll-fade-in {
+  opacity: 0;
+  transform: translateY(20px);
+  transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+}
+
+.scroll-fade-in.visible {
+  opacity: 1;
+  transform: none;
+}
+/* mobile */
+
+
+/* Hide menu by default on mobile */
+.main-nav {
+  margin-left: auto;
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #2D2742;
+  position: absolute;
+  top: 80px;
+  /* adjust based on your header height */
+  right: 0;
+  width: 100%;
+  padding: 20px;
+  z-index: 1000;
+}
+
+/* Show menu when active */
+.main-nav.active {
+  display: flex;
+}
+
+/* Optional: style links in mobile */
+.main-nav ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+}
+
+.main-nav ul li {
+  margin: 10px 0;
+}
+
+.main-nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px) {
+  .burger {
+    display: none;
+  }
+
+  .main-nav {
+    margin-left: auto;
+    display: flex !important;
+    position: static;
+    flex-direction: row;
+    justify-content: flex-end;
+    background: none;
+    padding: 0;
+  }
+
+  .main-nav ul {
+    display: flex;
+    gap: 30px;
+  }
+
+  .main-nav.active {
+    display: flex;
+  }
+
+  
+
+
+
+}
+
+
+
+
+.project-main-image {
+
+  width: 100%;
+  margin: auto;
+
+}
+
+.solution-outcome-section {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+
+
+
+}
+
+
+/* D E S K T O P */
+
+
+@media (min-width: 768px) {
+
+  .text-block {
+    flex: 1;
+  }
+
+  .text-block {
+    padding: 0 0 0 0px;
+  }
+
+    .text-block-ux-row {
+    flex: 1;
+  }
+
+  .text-block-ux-row {
+    padding: 0 0 0 40px;
+    width: 100%;
+    max-width: 332px;
+  }
+
+
+}
+
+
+section {
+  width: 100%;
+  background-color: #FFF;
+  margin: auto;
+  display: flex;
+
+
+}
+
+
+footer img {
+  width: 86px;
+  transition-duration: 0.4s;
+
+}
+
+input {
+  border-radius: 0;
+}
+
+img {
+  border: none;
+  border: 0px;
+
+  margin: 0;
+  padding: 0;
+}
+
+
+/* === Returns Portal Case Study Styles === */
+
+
+.project-section {
+  display: flex;
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  height: auto;
+
+
+  
+}
+
+
+
+.project-left {
+  flex: 2;
+  width: 100%;
+  max-width: 1440px;
+  color: #2D2742;
+  padding: 0 20px 0 20px;
+}
+
+.project-main-image-BG {
+  background-color: #F3F3F3;
+  width: 100%;
+  margin: auto;
+}
+
+
+.project-main-image,
+.project-video {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  height: auto;
+  text-align: center;
+}
+
+.project-main-image img,
+.project-video video {
+  max-width: 1440px;
+  width: 100%;
+  margin: auto;
+  height: auto;
+
+}
+
+.project-ux-grid {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+ 
+}
+
+.ux-row {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+
+.ux-row img {
+  flex: 1;
+  max-width: 300px;
+}
+
+.ux-caption {
+  flex: 1;
+  min-width: 300px;
+  max-width: 460px;
+
+}
+
+.project-video {
+  margin-top: 40px;
+}
+
+.project-main-image img {
+  max-width: 85%;
+  margin: 0 auto;
+  display: block;
+}
+
