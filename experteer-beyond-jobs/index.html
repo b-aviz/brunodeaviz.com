@@ -1,12 +1,42 @@
 <!DOCTYPE html>
+
 <html>
 <head>
   <meta charset="utf-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
+
   <title>Experteer Beyond Jobs – UX Case Study | Bruno de Aviz</title>
-  <meta name="description" content="A UX case study by Bruno de Aviz: Experteer Beyond Jobs – a mobile-first executive job discovery experience using conversational flows and smart matching."/>
-  <meta name="author" content="Bruno de Aviz"/>
+  <meta name="description" content="A UX case study by Bruno de Aviz for Experteer Beyond Jobs – a mobile-first career discovery app for executives using conversational design and AI-based job matching.">
+  <meta name="keywords" content="UX case study, Bruno de Aviz, Experteer, career app, job discovery, executive UX, mobile UX, product design, onboarding, AI matching, job platform">
+  <meta name="author" content="Bruno de Aviz">
+  <meta name="robots" content="index, follow">
+  <meta name="theme-color" content="#FFFFFF"/>
+
+  <!-- Open Graph (for link previews) -->
+  <meta property="og:title" content="Experteer Beyond Jobs – UX Case Study | Bruno de Aviz">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://brunodeaviz.com/experteer-beyond-jobs">
+  <meta property="og:image" content="https://brunodeaviz.com/experteer-beyond-jobs/img/thumbnail-experteer.png">
+  <meta property="og:description" content="Explore a UX case study by Bruno de Aviz: a career discovery app for executives built on smart onboarding, conversational flows, and curated job matching.">
+
+  <!-- Canonical URL -->
+  <link rel="canonical" href="https://brunodeaviz.com/experteer-beyond-jobs">
+
+  <!-- Styles -->
   <link rel="stylesheet" href="css/style-experteer-beyond-jobs.css"/>
+
+  <!-- Favicons -->
+  <link rel="icon" href="https://brunodeaviz.com/experteer-beyond-jobs/img/favicon.ico" type="image/x-icon"/>
+  <link rel="icon" type="image/png" sizes="16x16" href="https://brunodeaviz.com/experteer-beyond-jobs/img/ba-16px.png"/>
+  <link rel="icon" type="image/png" sizes="32x32" href="https://brunodeaviz.com/experteer-beyond-jobs/img/ba-32px.png"/>
+  <link rel="icon" type="image/png" sizes="96x96" href="https://brunodeaviz.com/experteer-beyond-jobs/img/ba-96px.png"/>
+  <link rel="apple-touch-icon" sizes="72x72" href="https://brunodeaviz.com/experteer-beyond-jobs/img/ba-touch-ipad.png"/>
+  <link rel="apple-touch-icon" sizes="114x114" href="https://brunodeaviz.com/experteer-beyond-jobs/img/ba-touch-iphone.png"/>
+  <link rel="apple-touch-icon" sizes="152x152" href="https://brunodeaviz.com/experteer-beyond-jobs/img/ba-touch-ipad-ret.png"/>
+
+  <!-- Cookie Consent -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css"/>
+  <style>.cc-revoke { display: none !important; }</style>
 </head>
 <body>
   <div class="top_bar">
@@ -74,7 +104,7 @@
 
   <section class="solution-outcome-section">
     <div class="text-block">
-      <h2>📱 Product Screens – Key User Flows</h2>
+      <h2>Product Screens – Key User Flows</h2>
     </div>
   </section>
   <section class="project-ux-grid">
@@ -153,6 +183,50 @@
 <div class="space"></div>
 </footer>
 <div class="year"> Copyright © <script>document.write(new Date().getFullYear())</script> BRUNODEAVIZ.com</div>
+<!-- CookieConsent (GDPR Compliant) -->
+<script defer="" src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
+<script defer="">
+  window.addEventListener("load", function(){
+    window.cookieconsent.initialise({
+      "palette": {
+        "popup": { "background": "#2D2742" },
+        "button": { "background": "#D2FF1A", "text": "#2D2742" }
+      },
+      "theme": "classic",
+      "type": "opt-in",
+      "showLink": false,
+      "content": {
+        "message": "We use cookies to improve your experience. You can accept or reject optional cookies.",
+        "dismiss": "Reject",
+        "allow": "Accept",
+        "link": "Learn more",
+        "href": "/DATENSCHUTZ.html"
+      },
+      onInitialise: function (status) {
+        if (this.hasConsented('statistics')) {
+          loadGA();
+        }
+      },
+      onStatusChange: function(status, chosenBefore) {
+        if (this.hasConsented('statistics')) {
+          loadGA();
+        }
+      }
+    });
+
+    function loadGA() {
+      var script1 = document.createElement('script');
+      script1.async = true;
+      script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-VRYYD5DW9D';
+      document.head.appendChild(script1);
+
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+      gtag('config', 'G-VRYYD5DW9D');
+    }
+  });
+</script>
 <script>
 document.addEventListener("DOMContentLoaded", function() {
   const elements = document.querySelectorAll(".scroll-fade-in");
