@@ -132,9 +132,9 @@
     </div>
   </section>
   <div class="space"></div>
-<div class="space"></div>
+  <div class="space"></div>
 
-  <footer class="scroll-fade-in">
+<footer class="scroll-fade-in">
 <div class="space"></div>
 <div class="space"></div>
 <div class="space"></div>
@@ -168,50 +168,7 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 </script>
 <!-- CookieConsent (GDPR Compliant) -->
-<!-- CookieConsent (GDPR Compliant) -->
-<script defer="" src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js"></script>
-<script defer="">
-  window.addEventListener("load", function(){
-    window.cookieconsent.initialise({
-      "palette": {
-        "popup": { "background": "#2D2742" },
-        "button": { "background": "#D2FF1A", "text": "#2D2742" }
-      },
-      "theme": "classic",
-      "type": "opt-in",
-      "showLink": false,
-      "content": {
-        "message": "We use cookies to improve your experience. You can accept or reject optional cookies.",
-        "dismiss": "Reject",
-        "allow": "Accept",
-        "link": "Learn more",
-        "href": "/DATENSCHUTZ.html"
-      },
-      onInitialise: function (status) {
-        if (this.hasConsented('statistics')) {
-          loadGA();
-        }
-      },
-      onStatusChange: function(status, chosenBefore) {
-        if (this.hasConsented('statistics')) {
-          loadGA();
-        }
-      }
-    });
 
-    function loadGA() {
-      var script1 = document.createElement('script');
-      script1.async = true;
-      script1.src = 'https://www.googletagmanager.com/gtag/js?id=G-VRYYD5DW9D';
-      document.head.appendChild(script1);
-
-      window.dataLayer = window.dataLayer || [];
-      function gtag(){dataLayer.push(arguments);}
-      gtag('js', new Date());
-      gtag('config', 'G-VRYYD5DW9D');
-    }
-  });
-</script>
 <script>
   document.addEventListener("DOMContentLoaded", function () {
     const burger = document.querySelector('.burger');
