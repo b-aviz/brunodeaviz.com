@@ -1172,7 +1172,7 @@ img {
 
 
 .button:hover {
-  background-color: #C4ED1C;
+  background-color: #B8E200;
   border: none;
   color: #2D2742;
   padding: 1rem 2rem;
@@ -1187,8 +1187,6 @@ img {
   height: auto; /* Optional, to prevent full height if inherited */
   transition: background-color 0.3s ease;
 }
-
-
 
 
 @media (max-width: 768px) {
