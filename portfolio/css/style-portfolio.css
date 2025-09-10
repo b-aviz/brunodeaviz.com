@@ -1153,7 +1153,10 @@ img {
 
 
 
-.button {
+.button,
+.button:visited,
+.button:active,
+.button:focus {
   background-color: #D2FF1A;
   border: none;
   color: #2D2742;
